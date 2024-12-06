@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    background-color: lightyellow;
+    color: #03045E;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.container {
+    margin: 35px 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.logo-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo-img {
+    margin-top: -15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text p{
+    margin-top: 210px;
+    max-width: 400px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.header-text span {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.profile-picture {
+    margin-top: 110px;
+}
+
+.resume-btn {
+    text-decoration: none;
+    max-width: 160px;
+    margin-top: 21px;
+    padding: 15px 38px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: inherit;
+    box-shadow:  
+    10px 10px 10px #EEE560;
+    cursor: pointer;
+}
+
+.resume-btn:hover {
+    background-color: #ebe2b6;
+    transition: 0.3s linear;
+    box-shadow: 10px 10px 10px #a3a05b;;
+}
+
+
+

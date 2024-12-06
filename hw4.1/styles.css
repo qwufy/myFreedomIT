@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    background-color: #FFFAF3;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.container {
+    margin: 43px 180px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: 83px;
+    min-width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 470px;
+    background-color: #C08D5D;
+    top: 140px;
+    left: 190px;
+    opacity: 0.7;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-item:nth-child(1) {
+    color: #c08d5d;
+}
+
+.body-section {
+    display: flex;
+    margin-top: 130px;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: end;
+    gap: 0 10px;
+}
+
+.title-top {
+    font-family: "Yeseva One", serif;
+    font-size: 50px;
+    color: #3F4042;
+}
+
+.title-bottom {
+    font-family: "Yeseva One", serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #3F4042;
+}
+
+.body-content {
+    max-width: 50%;
+    margin-top: 25px;
+    font-size: 18px;
+    color: #3F4042;
+}
+
+.wavy-line {
+    margin-top: 45px;
+}
+
+.read-more {
+    text-decoration: none;
+}
+
+.read-more p {
+    position: relative;
+    margin-top: 70px;
+    padding: 17px 13px;
+    border: 2px solid #C08D5D;
+    max-width: 135px;
+    font-size: 20px;
+    color: #3F4042;
+}
+
+.read-more p::after {
+    position: absolute;
+    content: url(/images/Vector\ 2.svg);
+    background-color: #C08D5D;
+    padding: 18.2px 29px;
+    top: -1px;
+    left: 132px;
+}
+
+.background-image {
+    max-width: 50%;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+footer {
+    margin: 62px auto;
+    text-align: center;
+}

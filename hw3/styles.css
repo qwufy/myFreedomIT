@@ -1,0 +1,222 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    /* border: 1px solid green; */
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Roboto", serif;
+    font-size: 24px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.container {
+    margin-inline: 145px;
+}
+
+.header {
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 370px;
+}
+
+.header-title {
+    padding-top: 100px;
+    font-size: 54px;
+    color: #003395;
+    font-weight: 500;
+}
+
+.header-content {
+    margin-top: 27px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav {
+    padding: 27px 0;
+    background-color: #003395;
+}
+
+.nav-content {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 62px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: rgb(184, 184, 184);
+    text-decoration: underline;
+}
+
+main {
+    margin: 60px 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-1, 
+.card-2,
+.card-3 {
+    max-width: 650px;
+    padding-bottom: 34px;
+}
+
+.card-1::before {
+    content: "";
+    position: absolute;
+    background: #003395;
+    height: 2px;
+    width: 650px;
+    left: 140px;
+    top: 500px;
+}
+
+.card-1::after {
+    content: "";
+    position: absolute;
+    background: #003395;
+    height: 2px;
+    width: 650px;
+    left: 140px;
+    top: 549px;
+}
+
+.card-2::before {
+    content: "";
+    position: absolute;
+    background: #003395;
+    height: 2px;
+    width: 650px;
+    left: 140px;
+    top: 716px;
+}
+
+.card-2::after {
+    content: "";
+    position: absolute;
+    background: #003395;
+    height: 2px;
+    width: 650px;
+    left: 140px;
+    top: 764px;
+}
+
+
+.card-3::before {
+    content: "";
+    position: absolute;
+    background: #003395;
+    height: 2px;
+    width: 650px;
+    left: 140px;
+    top: 932px;
+}
+
+.card-3::after {
+    content: "";
+    position: absolute;
+    background: #003395;
+    height: 2px;
+    width: 650px;
+    left: 140px;
+    top: 977px;
+}
+
+
+.card-title {
+    color: #003395;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.news {
+    max-width: 400px;
+    border: 3px solid #33008D;
+    padding: 19px;
+}
+
+.news-title {
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #24B0FF;
+    padding: 14px 17px;
+}
+
+.news-content {
+    margin-top: 14px;
+    font-size: 16.2px;
+    line-height: auto;
+}
+
+.links {
+    margin-top: -140px;
+    min-width: 400px;
+    border: 3px solid #33008D;
+    padding: 19px;
+}
+
+.links-title {
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #24B0FF;
+    padding: 14px 17px;
+}
+
+.link {
+    margin-top: 14px;
+    font-size: 16.2px;
+    line-height: auto;
+}
+
+.link a {
+    text-decoration: none;
+    color: #30233D;
+}
+
+.link a:hover {
+    color: #33008D;
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 60px;
+    margin-bottom: -60px;
+    padding-top: 45px;
+    padding-bottom: 83px;
+    padding-right: 145px;
+    text-align: end;
+    background-image: linear-gradient(#003395, #00205F); 
+}
+
+.footer-content {
+    color: #fcfcfc;
+    font-size: 14px;
+}
